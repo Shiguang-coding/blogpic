@@ -34,7 +34,7 @@ node server.js
 
 你可以使用 Vercel 一键部署按钮将本项目部署到 Vercel，无需手动配置。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/your-repo-name)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Shiguang-coding/blogpic)
 
 ### 手动部署步骤
 
