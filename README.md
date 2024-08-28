@@ -2,7 +2,7 @@
 
 # 時光图床
 
-时光图床是一个简单的图床应用，允许用户通过浏览器浏览和管理图片。本项目使用 `Node.js` 和 `Express` 构建，并可以轻松部署到 `Vercel`。
+時光图床是一个简单的图床应用，允许用户通过浏览器浏览和管理图片。本项目使用 `Node.js` 和 `Express` 构建，并可以轻松部署到 `Vercel`。
 
 ## 功能特性
 
@@ -92,45 +92,6 @@ my-project/
 └── vercel.json
 ```
 
-## 示例 `server.js`
-
-```javascript
-const express = require('express');
-const path = require('path');
-
-const app = express();
-const port = process.env.PORT || 8080;
-
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.get('/api/files', (req, res) => {
-    // Your API logic here
-});
-
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-});
-```
-
-## 示例 `vercel.json`
-
-```json
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
-  ]
-}
-```
 
 ## 许可证
 
