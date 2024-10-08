@@ -1,12 +1,21 @@
 
 
-# 時光图床
+# 博客图床备份
 
-時光图床是一个简单的图床应用，允许用户通过浏览器浏览和管理图片。本项目使用 `Node.js` 和 `Express` 构建，并可以轻松部署到 `Vercel`。
+## 介绍
 
-## 功能特性
+[時光博客园子](https://blog.shiguang666.eu.org) 的图床备份，更多详细使用方式可参考**[vercel-img](https://github.com/Shiguang-coding/vercel-img)**
 
-- 浏览目录和图片
-- 点击图片预览大图
-- 支持多层级目录结构
+## 使用
 
+将文章中引用的图片地址域名批量替换即可
+
+例如图片原路径为
+
+https://img.shiguang666.eu.org/2024/09/26/66f515fca19b9.png
+
+替换为
+
+https://img.shiguang666.eu.org/2024/09/26/66f515fca19b9.png
+
+https://blogpic.vercel.app/2024/09/26/66f515fca19b9.png
